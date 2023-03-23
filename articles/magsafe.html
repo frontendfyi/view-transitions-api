@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-y-scroll">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Transitions</title>
+  </head>
+  <body class="bg-[#f3f3f3]">
+    <main>
+      <header class="py-8 border-b border-gray-200 mb-5`">
+        <div class="max-w-6xl mx-auto flex">
+          View Transitions API
+
+          <nav class="ml-8">
+            <ul class="flex gap-5">
+              <li>
+                <a href="/" class="relative">Home </a>
+              </li>
+              <li>
+                <a href="/articles/magsafe.html" class="relative"
+                  >Magsafe
+                  <span
+                    class="[view-transition-name:activenav] w-full h-[2px] bg-black absolute left-0 bottom-[-2px]"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="max-w-6xl mx-auto">
+        <h1
+          class="[view-transition-name:articletitle] max-w-3xl text-4xl my-6 font-bold"
+        >
+          Magsafe, the tech that safes your Mac.
+        </h1>
+        <img
+          class="[view-transition-name:articleimage] w-full"
+          src="/m1-macbook.jpeg"
+        />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quisquam voluptates, quod, quia. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Quisquam voluptates, quod,
+          quia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quisquam voluptates, quod, quia.
+        </p>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

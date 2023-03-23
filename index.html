@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-y-scroll">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Transitions</title>
+  </head>
+  <body class="bg-[#f3f3f3]">
+    <main>
+      <header class="py-8 border-b border-gray-200 mb-5`">
+        <div class="max-w-6xl mx-auto flex">
+          View Transitions API
+
+          <nav class="ml-8">
+            <ul class="flex gap-5">
+              <li>
+                <a href="/" class="relative"
+                  >Home
+                  <span
+                    class="[view-transition-name:activenav] w-full h-[2px] bg-black absolute left-0 bottom-[-2px]"
+                /></a>
+              </li>
+              <li>
+                <a href="/articles/magsafe.html" class="relative">Magsafe</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="max-w-6xl mx-auto">
+        <div
+          class="justify-start grid grid-cols-[1fr,2fr,1fr] auto-rows-min grid-flow-dense gap-10"
+        >
+          <div class="flex flex-col gap-10 divide-y">
+            <article class="card">
+              <img src="/e-learning.jpeg" />
+              <div class="p-2">
+                <h2 class="font-bold text-2xl my-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#DESIGN</span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="p-2">
+                <h2 class="font-bold text-2xl my-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#DESIGN</span>
+              </div>
+            </article>
+          </div>
+          <div class="flex flex-col gap-10 divide-y">
+            <article class="card">
+              <img src="/m1-macbook.jpeg" />
+              <div class="p-2">
+                <a href="/articles/magsafe.html">
+                  <h2 class="font-bold text-2xl my-2">
+                    Magsafe, the tech that safes your Mac.
+                  </h2>
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#LAPTOPS</span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="p-2">
+                <h2 class="font-bold text-2xl my-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#DESIGN</span>
+              </div>
+            </article>
+          </div>
+          <div class="flex flex-col gap-10 divide-y">
+            <article class="card">
+              <div class="p-2">
+                <h2 class="font-bold text-2xl my-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#DESIGN</span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="p-2">
+                <h2 class="font-bold text-2xl my-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates, quod, quia.
+                </p>
+                <span class="text-gray-300 text-sm">#DESIGN</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
